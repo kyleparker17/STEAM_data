@@ -1,0 +1,1328 @@
+{
+  "games": {
+    "rows": 167460,
+    "cols": 44,
+    "fields": {
+      "appid": {
+        "dtype": "int64",
+        "null": 0,
+        "null_pct": 0.0,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 167460,
+        "samples": [
+          "10",
+          "20",
+          "30"
+        ]
+      },
+      "name": {
+        "dtype": "str",
+        "null": 22,
+        "null_pct": 0.0,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 165470,
+        "samples": [
+          "Counter-Strike",
+          "Team Fortress Classic",
+          "Day of Defeat"
+        ]
+      },
+      "type": {
+        "dtype": "str",
+        "null": 1365,
+        "null_pct": 0.8,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 1,
+        "samples": [
+          "game"
+        ]
+      },
+      "is_free": {
+        "dtype": "object",
+        "null": 1365,
+        "null_pct": 0.8,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 2,
+        "samples": [
+          "False",
+          "True"
+        ]
+      },
+      "short_description": {
+        "dtype": "str",
+        "null": 1489,
+        "null_pct": 0.9,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 164657,
+        "samples": [
+          "Play the world's number 1 online action game. Engage in an i",
+          "One of the most popular online action games of all time, Tea",
+          "Enlist in an intense brand of Axis vs. Allied teamplay set i"
+        ]
+      },
+      "release_date": {
+        "dtype": "str",
+        "null": 1648,
+        "null_pct": 1.0,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 5517,
+        "samples": [
+          "1 Nov, 2000",
+          "1 Apr, 1999",
+          "1 May, 2003"
+        ]
+      },
+      "coming_soon": {
+        "dtype": "object",
+        "null": 1365,
+        "null_pct": 0.8,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 2,
+        "samples": [
+          "False",
+          "True"
+        ]
+      },
+      "developers": {
+        "dtype": "str",
+        "null": 1611,
+        "null_pct": 1.0,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 107668,
+        "samples": [
+          "Valve",
+          "Gearbox Software",
+          "Mark Healey"
+        ]
+      },
+      "publishers": {
+        "dtype": "str",
+        "null": 2191,
+        "null_pct": 1.3,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 98315,
+        "samples": [
+          "Valve",
+          "Mark Healey",
+          "Tripwire Interactive"
+        ]
+      },
+      "genres": {
+        "dtype": "str",
+        "null": 1537,
+        "null_pct": 0.9,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 2689,
+        "samples": [
+          "Action",
+          "Action, Free To Play",
+          "Action, Strategy, Free To Play"
+        ]
+      },
+      "categories": {
+        "dtype": "str",
+        "null": 1396,
+        "null_pct": 0.8,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 22998,
+        "samples": [
+          "Multi-player, PvP, Online PvP, Shared/Split Screen PvP, Colo",
+          "Multi-player, PvP, Online PvP, Shared/Split Screen PvP, Cust",
+          "Multi-player, Camera Comfort, Color Alternatives, Custom Vol"
+        ]
+      },
+      "platform_windows": {
+        "dtype": "object",
+        "null": 1365,
+        "null_pct": 0.8,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 2,
+        "samples": [
+          "True",
+          "False"
+        ]
+      },
+      "platform_mac": {
+        "dtype": "object",
+        "null": 1365,
+        "null_pct": 0.8,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 2,
+        "samples": [
+          "True",
+          "False"
+        ]
+      },
+      "platform_linux": {
+        "dtype": "object",
+        "null": 1365,
+        "null_pct": 0.8,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 2,
+        "samples": [
+          "True",
+          "False"
+        ]
+      },
+      "pc_min_os": {
+        "dtype": "str",
+        "null": 4276,
+        "null_pct": 2.6,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 5507,
+        "samples": [
+          "*:",
+          "Windows® 7 32/64-bit / Vista 32/64 / XP",
+          "Windows® 10"
+        ]
+      },
+      "pc_min_cpu": {
+        "dtype": "str",
+        "null": 10106,
+        "null_pct": 6.0,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 25302,
+        "samples": [
+          ", 96mb ram, 16mb video card, Windows XP, Mouse, Keyboard, In",
+          "1.7 Ghz",
+          ", 512MB RAM, DirectX® 8.1 level Graphics Card (Requires supp"
+        ]
+      },
+      "pc_min_ram": {
+        "dtype": "str",
+        "null": 14373,
+        "null_pct": 8.6,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 1201,
+        "samples": [
+          "512 MB RAM",
+          "1024 MB RAM",
+          "1 GB"
+        ]
+      },
+      "pc_min_gpu": {
+        "dtype": "str",
+        "null": 24233,
+        "null_pct": 14.5,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 42949,
+        "samples": [
+          "DirectX 8.1 level Graphics Card (requires support for SSE)",
+          "Card (Requires support for SSE), Windows® 7 (32/64-bit)/Vist",
+          "card, Windows XP, Mouse, Keyboard, Internet Connection"
+        ]
+      },
+      "pc_min_storage": {
+        "dtype": "str",
+        "null": 19152,
+        "null_pct": 11.4,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 2217,
+        "samples": [
+          "6500 MB available space",
+          "4 GB available space",
+          "15 GB available space"
+        ]
+      },
+      "pc_rec_os": {
+        "dtype": "str",
+        "null": 81875,
+        "null_pct": 48.9,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 4409,
+        "samples": [
+          "*:",
+          "Windows® 7 32/64-bit / Vista 32/64 / XP",
+          "Windows XP"
+        ]
+      },
+      "pc_rec_cpu": {
+        "dtype": "str",
+        "null": 62488,
+        "null_pct": 37.3,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 17074,
+        "samples": [
+          "Pentium 4 processor (3.0GHz, or better)",
+          "Intel core 2 duo 2.4GHz",
+          "2.4 GHZ"
+        ]
+      },
+      "pc_rec_ram": {
+        "dtype": "str",
+        "null": 86436,
+        "null_pct": 51.6,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 650,
+        "samples": [
+          "1 GB RAM",
+          "1 GB",
+          "2 GB RAM"
+        ]
+      },
+      "pc_rec_gpu": {
+        "dtype": "str",
+        "null": 89397,
+        "null_pct": 53.4,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 30041,
+        "samples": [
+          "Shader model 3.0, NVidia 7600, ATI X1600 or better",
+          "Video Card Shader model 3.0. NVidia 7600, ATI X1600 or bette",
+          "DirectX 9 compatible video card with Shader model 3.0. NVidi"
+        ]
+      },
+      "pc_rec_storage": {
+        "dtype": "str",
+        "null": 89121,
+        "null_pct": 53.2,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 1454,
+        "samples": [
+          "15 GB available space",
+          "13 GB available space",
+          "12 GB available space"
+        ]
+      },
+      "price_initial": {
+        "dtype": "float64",
+        "null": 1365,
+        "null_pct": 0.8,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 64517,
+        "zero_pct": 38.5,
+        "unique": 1243,
+        "samples": [
+          "1050000.0",
+          "560000.0",
+          "1100000.0"
+        ]
+      },
+      "price_final": {
+        "dtype": "float64",
+        "null": 1365,
+        "null_pct": 0.8,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 64517,
+        "zero_pct": 38.5,
+        "unique": 1649,
+        "samples": [
+          "1050000.0",
+          "560000.0",
+          "787000.0"
+        ]
+      },
+      "discount_percent": {
+        "dtype": "float64",
+        "null": 1365,
+        "null_pct": 0.8,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 157072,
+        "zero_pct": 93.8,
+        "unique": 86,
+        "samples": [
+          "0.0",
+          "25.0",
+          "89.0"
+        ]
+      },
+      "metacritic_score": {
+        "dtype": "float64",
+        "null": 163368,
+        "null_pct": 97.6,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 72,
+        "samples": [
+          "88.0",
+          "79.0",
+          "96.0"
+        ]
+      },
+      "recommendations_total": {
+        "dtype": "float64",
+        "null": 1365,
+        "null_pct": 0.8,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 144642,
+        "zero_pct": 86.4,
+        "unique": 5356,
+        "samples": [
+          "168080.0",
+          "6942.0",
+          "4424.0"
+        ]
+      },
+      "achievements_total": {
+        "dtype": "float64",
+        "null": 1365,
+        "null_pct": 0.8,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 98765,
+        "zero_pct": 59.0,
+        "unique": 443,
+        "samples": [
+          "0.0",
+          "69.0",
+          "147.0"
+        ]
+      },
+      "supported_languages": {
+        "dtype": "str",
+        "null": 1535,
+        "null_pct": 0.9,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 31938,
+        "samples": [
+          "English<strong>*</strong>, French<strong>*</strong>, German<",
+          "English, French, German, Italian, Spanish - Spain, Korean, R",
+          "English, French, German, Italian, Spanish - Spain"
+        ]
+      },
+      "header_image": {
+        "dtype": "str",
+        "null": 1531,
+        "null_pct": 0.9,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 165929,
+        "samples": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/stea",
+          "https://shared.akamai.steamstatic.com/store_item_assets/stea",
+          "https://shared.akamai.steamstatic.com/store_item_assets/stea"
+        ]
+      },
+      "website": {
+        "dtype": "str",
+        "null": 101662,
+        "null_pct": 60.7,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 53378,
+        "samples": [
+          "http://www.dayofdefeat.com/",
+          "http://www.half-life.com/",
+          "http://www.half-life.com/halflife2"
+        ]
+      },
+      "source": {
+        "dtype": "str",
+        "null": 0,
+        "null_pct": 0.0,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 2,
+        "samples": [
+          "appdetails",
+          "steamspy"
+        ]
+      },
+      "developer": {
+        "dtype": "str",
+        "null": 166614,
+        "null_pct": 99.5,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 816,
+        "samples": [
+          "Momentum Games",
+          "Parabolica Games",
+          "Girl's Software"
+        ]
+      },
+      "publisher": {
+        "dtype": "str",
+        "null": 166615,
+        "null_pct": 99.5,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 799,
+        "samples": [
+          "Momentum Games",
+          "Parabolica Games",
+          "Denpasoft"
+        ]
+      },
+      "genre": {
+        "dtype": "str",
+        "null": 166614,
+        "null_pct": 99.5,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 197,
+        "samples": [
+          "Adventure, Casual, Indie",
+          "Adventure, Casual, Indie, Simulation",
+          "Action, Casual, Indie, Simulation, Sports"
+        ]
+      },
+      "tags": {
+        "dtype": "str",
+        "null": 167168,
+        "null_pct": 99.8,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 292,
+        "samples": [
+          "Strategy, RPG, Card Game, Simulation, Retro, Card Battler, A",
+          "Action, PvE, PvP, e-sports, Family Friendly, Multiplayer, An",
+          "Online Co-Op, Multiplayer, Choose Your Own Adventure, Action"
+        ]
+      },
+      "positive": {
+        "dtype": "float64",
+        "null": 166095,
+        "null_pct": 99.2,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 1088,
+        "zero_pct": 0.6,
+        "unique": 77,
+        "samples": [
+          "0.0",
+          "191.0",
+          "97.0"
+        ]
+      },
+      "negative": {
+        "dtype": "float64",
+        "null": 166095,
+        "null_pct": 99.2,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 1217,
+        "zero_pct": 0.7,
+        "unique": 40,
+        "samples": [
+          "0.0",
+          "74.0",
+          "24.0"
+        ]
+      },
+      "owners": {
+        "dtype": "str",
+        "null": 166095,
+        "null_pct": 99.2,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 4,
+        "samples": [
+          "0 .. 20,000",
+          "100,000 .. 200,000",
+          "20,000 .. 50,000"
+        ]
+      },
+      "price": {
+        "dtype": "float64",
+        "null": 166614,
+        "null_pct": 99.5,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 105,
+        "zero_pct": 0.1,
+        "unique": 69,
+        "samples": [
+          "349.0",
+          "419.0",
+          "1799.0"
+        ]
+      },
+      "initialprice": {
+        "dtype": "float64",
+        "null": 166614,
+        "null_pct": 99.5,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 105,
+        "zero_pct": 0.1,
+        "unique": 46,
+        "samples": [
+          "499.0",
+          "599.0",
+          "1799.0"
+        ]
+      },
+      "ccu": {
+        "dtype": "float64",
+        "null": 166095,
+        "null_pct": 99.2,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 1276,
+        "zero_pct": 0.8,
+        "unique": 29,
+        "samples": [
+          "0.0",
+          "1.0",
+          "13.0"
+        ]
+      }
+    },
+    "key": "appid",
+    "key_dup": 0,
+    "key_unique": 167460,
+    "dist": {
+      "type": {
+        "game": 166095
+      },
+      "is_free": {
+        "false": 145036,
+        "true": 21059
+      },
+      "source": {
+        "appdetails": 166095,
+        "steamspy": 1365
+      },
+      "top_genres": {
+        "Indie": 119856,
+        "Action": 69655,
+        "Casual": 69273,
+        "Adventure": 68428,
+        "Simulation": 36821,
+        "Strategy": 34491,
+        "RPG": 33307,
+        "Early Access": 16407,
+        "Free To Play": 16308,
+        "Sports": 6240,
+        "Racing": 5604,
+        "Massively Multiplayer": 3965,
+        "Violent": 419,
+        "Gore": 254,
+        "Nudity": 91
+      },
+      "platform_windows": {
+        "true": 166037,
+        "false": 58
+      },
+      "platform_mac": {
+        "false": 137388,
+        "true": 28707
+      },
+      "platform_linux": {
+        "false": 143923,
+        "true": 22172
+      },
+      "price_final_won": {
+        "min": 0.0,
+        "max": 84900000.0,
+        "mean": 577010.2,
+        "median": 230000.0,
+        "free_or_zero": 64517
+      },
+      "release_year_top": {
+        "2026": 20532,
+        "2025": 19976,
+        "2024": 17469,
+        "2023": 12923,
+        "2022": 10884,
+        "2021": 10090,
+        "2020": 8485,
+        "2018": 7072,
+        "2019": 6936,
+        "2017": 5537
+      },
+      "metacritic": {
+        "has_score": 4092,
+        "mean": 73.9
+      }
+    }
+  },
+  "reviews_ko": {
+    "rows": 505679,
+    "cols": 18,
+    "fields": {
+      "appid": {
+        "dtype": "int64",
+        "null": 0,
+        "null_pct": 0.0,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 39910,
+        "samples": [
+          "10",
+          "20",
+          "30"
+        ]
+      },
+      "app_name": {
+        "dtype": "str",
+        "null": 2,
+        "null_pct": 0.0,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 39768,
+        "samples": [
+          "Counter-Strike",
+          "Team Fortress Classic",
+          "Day of Defeat"
+        ]
+      },
+      "recommendationid": {
+        "dtype": "int64",
+        "null": 0,
+        "null_pct": 0.0,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 238742,
+        "samples": [
+          "225270979",
+          "226070755",
+          "219595784"
+        ]
+      },
+      "steamid": {
+        "dtype": "int64",
+        "null": 0,
+        "null_pct": 0.0,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 107467,
+        "samples": [
+          "76561199093257484",
+          "76561199547780442",
+          "76561198228474580"
+        ]
+      },
+      "voted_up": {
+        "dtype": "bool",
+        "null": 0,
+        "null_pct": 0.0,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 121884,
+        "zero_pct": 24.1,
+        "unique": 2,
+        "samples": [
+          "True",
+          "False"
+        ]
+      },
+      "votes_up": {
+        "dtype": "int64",
+        "null": 0,
+        "null_pct": 0.0,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 291993,
+        "zero_pct": 57.7,
+        "unique": 240,
+        "samples": [
+          "0",
+          "44",
+          "17"
+        ]
+      },
+      "votes_funny": {
+        "dtype": "int64",
+        "null": 0,
+        "null_pct": 0.0,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 441594,
+        "zero_pct": 87.3,
+        "unique": 159,
+        "samples": [
+          "0",
+          "1",
+          "3"
+        ]
+      },
+      "weighted_vote_score": {
+        "dtype": "float64",
+        "null": 0,
+        "null_pct": 0.0,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 43518,
+        "samples": [
+          "0.5",
+          "0.7680323719978333",
+          "0.6557809114456176"
+        ]
+      },
+      "playtime_at_review": {
+        "dtype": "int64",
+        "null": 0,
+        "null_pct": 0.0,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 731,
+        "zero_pct": 0.1,
+        "unique": 16873,
+        "samples": [
+          "183",
+          "403",
+          "772"
+        ]
+      },
+      "playtime_forever": {
+        "dtype": "int64",
+        "null": 0,
+        "null_pct": 0.0,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 306,
+        "zero_pct": 0.1,
+        "unique": 21093,
+        "samples": [
+          "186",
+          "403",
+          "2097"
+        ]
+      },
+      "num_games_owned": {
+        "dtype": "int64",
+        "null": 0,
+        "null_pct": 0.0,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 298714,
+        "zero_pct": 59.1,
+        "unique": 2232,
+        "samples": [
+          "49",
+          "42",
+          "0"
+        ]
+      },
+      "num_reviews": {
+        "dtype": "int64",
+        "null": 0,
+        "null_pct": 0.0,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 443,
+        "samples": [
+          "39",
+          "19",
+          "1"
+        ]
+      },
+      "steam_purchase": {
+        "dtype": "bool",
+        "null": 0,
+        "null_pct": 0.0,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 79239,
+        "zero_pct": 15.7,
+        "unique": 2,
+        "samples": [
+          "False",
+          "True"
+        ]
+      },
+      "received_for_free": {
+        "dtype": "bool",
+        "null": 0,
+        "null_pct": 0.0,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 487204,
+        "zero_pct": 96.3,
+        "unique": 2,
+        "samples": [
+          "False",
+          "True"
+        ]
+      },
+      "written_during_early_access": {
+        "dtype": "bool",
+        "null": 0,
+        "null_pct": 0.0,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 454732,
+        "zero_pct": 89.9,
+        "unique": 2,
+        "samples": [
+          "False",
+          "True"
+        ]
+      },
+      "timestamp_created": {
+        "dtype": "int64",
+        "null": 0,
+        "null_pct": 0.0,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 238137,
+        "samples": [
+          "1778504206",
+          "1779375042",
+          "1772410604"
+        ]
+      },
+      "timestamp_updated": {
+        "dtype": "int64",
+        "null": 0,
+        "null_pct": 0.0,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 238184,
+        "samples": [
+          "1778504206",
+          "1779375042",
+          "1772410604"
+        ]
+      },
+      "review": {
+        "dtype": "str",
+        "null": 534,
+        "null_pct": 0.1,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 224667,
+        "samples": [
+          "근본임",
+          "모든 cs유저들의 고향",
+          "1.6은 참 잘만든 게임인데 한국에서 피시방 라이센스비를 안받았다면...지금의 서든자리에 카스가 있지 않았을"
+        ]
+      }
+    },
+    "key": "recommendationid",
+    "key_dup": 266937,
+    "key_unique": 238742,
+    "dist": {
+      "voted_up": {
+        "true": 383795,
+        "false": 121884
+      },
+      "review_length": {
+        "min": 1,
+        "max": 8000,
+        "mean": 173.2,
+        "median": 58.0,
+        "under_5char": 30153
+      },
+      "playtime_forever_min": {
+        "min": 0.0,
+        "max": 2781848.0,
+        "mean": 3503.9,
+        "median": 369.0,
+        "zero": 306
+      },
+      "unique_games": 39910,
+      "trusted_over_0.5": 166641
+    }
+  },
+  "reviews_en": {
+    "rows": 1235119,
+    "cols": 18,
+    "fields": {
+      "appid": {
+        "dtype": "str",
+        "null": 1,
+        "null_pct": 0.0,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 85158,
+        "samples": [
+          "10",
+          "20",
+          "30"
+        ]
+      },
+      "app_name": {
+        "dtype": "str",
+        "null": 2,
+        "null_pct": 0.0,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 84724,
+        "samples": [
+          "Counter-Strike",
+          "Team Fortress Classic",
+          "Day of Defeat"
+        ]
+      },
+      "recommendationid": {
+        "dtype": "str",
+        "null": 1,
+        "null_pct": 0.0,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 1235113,
+        "samples": [
+          "225859646",
+          "225000165",
+          "225320487"
+        ]
+      },
+      "steamid": {
+        "dtype": "str",
+        "null": 882,
+        "null_pct": 0.1,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 807438,
+        "samples": [
+          "76561198401559449",
+          "76561198034821974",
+          "76561198185990254"
+        ]
+      },
+      "voted_up": {
+        "dtype": "str",
+        "null": 1440,
+        "null_pct": 0.1,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 1212,
+        "samples": [
+          "True",
+          "False",
+          "9"
+        ]
+      },
+      "votes_up": {
+        "dtype": "str",
+        "null": 1793,
+        "null_pct": 0.1,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 1722,
+        "samples": [
+          "19",
+          "14",
+          "8"
+        ]
+      },
+      "votes_funny": {
+        "dtype": "str",
+        "null": 2018,
+        "null_pct": 0.2,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 953,
+        "samples": [
+          "5",
+          "0",
+          "1"
+        ]
+      },
+      "weighted_vote_score": {
+        "dtype": "str",
+        "null": 2177,
+        "null_pct": 0.2,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 303907,
+        "samples": [
+          "0.7291752099990844",
+          "0.6777329444885253",
+          "0.6153846383094786"
+        ]
+      },
+      "playtime_at_review": {
+        "dtype": "str",
+        "null": 2278,
+        "null_pct": 0.2,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 46451,
+        "samples": [
+          "173600",
+          "30",
+          "99130"
+        ]
+      },
+      "playtime_forever": {
+        "dtype": "str",
+        "null": 2364,
+        "null_pct": 0.2,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 51407,
+        "samples": [
+          "174098",
+          "52",
+          "99132"
+        ]
+      },
+      "num_games_owned": {
+        "dtype": "str",
+        "null": 2416,
+        "null_pct": 0.2,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 9554,
+        "samples": [
+          "13",
+          "0",
+          "33"
+        ]
+      },
+      "num_reviews": {
+        "dtype": "str",
+        "null": 2456,
+        "null_pct": 0.2,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 2485,
+        "samples": [
+          "2",
+          "1016",
+          "10"
+        ]
+      },
+      "steam_purchase": {
+        "dtype": "str",
+        "null": 2481,
+        "null_pct": 0.2,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 207,
+        "samples": [
+          "True",
+          "False",
+          "1672829204"
+        ]
+      },
+      "received_for_free": {
+        "dtype": "str",
+        "null": 2499,
+        "null_pct": 0.2,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 190,
+        "samples": [
+          "True",
+          "False",
+          "\"While the world looks pretty"
+        ]
+      },
+      "written_during_early_access": {
+        "dtype": "str",
+        "null": 2578,
+        "null_pct": 0.2,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 128,
+        "samples": [
+          "False",
+          "True",
+          " the game is wildly unoptimized. The motion blur and lag mad"
+        ]
+      },
+      "timestamp_created": {
+        "dtype": "str",
+        "null": 2626,
+        "null_pct": 0.2,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 1196623,
+        "samples": [
+          "1779127019",
+          "1778199622",
+          "1778563129"
+        ]
+      },
+      "timestamp_updated": {
+        "dtype": "str",
+        "null": 2669,
+        "null_pct": 0.2,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 1196271,
+        "samples": [
+          "1779127019",
+          "1778199622",
+          "1778563129"
+        ]
+      },
+      "review": {
+        "dtype": "str",
+        "null": 4407,
+        "null_pct": 0.4,
+        "empty": 0,
+        "empty_pct": 0,
+        "zero": 0,
+        "zero_pct": 0,
+        "unique": 1139223,
+        "samples": [
+          "Wasted 'half' my life in this game, plan to waste other half",
+          "A fantastic PC game. Still holds up pretty well after almost",
+          "Best game ive ever played but its not like it use to be in t"
+        ]
+      }
+    },
+    "key": "recommendationid",
+    "key_dup": 5,
+    "key_unique": 1235113,
+    "dist": {
+      "voted_up": {
+        "True": 947630,
+        "False": 284781,
+        "0": 11,
+        "30": 8,
+        "6": 7
+      },
+      "review_length": {
+        "min": 1,
+        "max": 8000,
+        "mean": 459.0,
+        "median": 164.0,
+        "under_5char": 40206
+      },
+      "playtime_forever_min": {
+        "min": 0.0,
+        "max": 1779840365.0,
+        "mean": 6239.0,
+        "median": 367.0,
+        "zero": 798
+      },
+      "unique_games": 85158
+    }
+  }
+}
